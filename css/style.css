@@ -1,0 +1,332 @@
+* {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* header styles */
+.header {
+    padding: 0 240px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+
+.header-text-primay {
+    color: #3C354F;
+    font-size: 1.20rem;
+    font-weight: 500;
+}
+
+.header-section,
+.header-logo,
+.header-side,
+.header-items>ul,
+.header-follow-button {
+    display: flex;
+}
+
+.header-logo {
+    align-items: center;
+}
+
+.header-logo img {
+    width: 86px;
+    height: 40px;
+}
+
+nav {
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.header-items li {
+    margin-right: 32px;
+}
+
+.header-side {
+    gap: 32px;
+}
+
+.header-follow-button {
+    width: 206px;
+    height: 56px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    padding: 0 24px;
+}
+
+.header-follow-button img {
+    width: 24px;
+    height: 24px;
+    padding-right: 0;
+}
+
+nav li {
+    list-style: none;
+}
+
+span {
+    color: #FF42A5;
+}
+
+/* main styles */
+.banner {
+    padding: 0 240px;
+    display: flex;
+    justify-content: space-between;
+    fill: linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
+}
+
+.banner h2 {
+    color: #0B0223;
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.banner h1 {
+    font-size: 5.94rem;
+    font-weight: 800;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.banner p {
+    color: #534C64;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.banner button {
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 600;
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    border: 0;
+}
+
+.banner .btn-2 {
+    background: #4EC5F7;
+}
+
+.banner img {
+    width: 711px;
+    height: 446px;
+}
+
+/* online games styles */
+.online-games-section {
+    padding: 0 240px;
+    margin-top: 120px;
+}
+
+.online-games-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.online-games-section h2 {
+    color: #0B0223;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.online-games-section p {
+    color: #534C64;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.online-games-img {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 24px;
+    position: relative;
+}
+
+.online-games-img img {
+    width: 342px;
+}
+
+
+.online-games-img-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.online-games-img-content p {
+    width: 342px;
+    color: #534C64;
+    font-size: 1.25rem;
+    font-weight: 500;
+    text-align: left;
+    gap: 24px;
+}
+
+.span-primary {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.play-instant {
+    display: flex;
+    margin-top: 120px;
+    margin-right: 240px;
+    margin-left: 439px;
+    justify-content: space-between;
+}
+
+.play-instant-title {
+    margin-top: 150px;
+    padding-bottom: 0;
+}
+
+.play-instant h2 {
+    text-align: right;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 60px;
+    padding-bottom: 0;
+}
+
+.play-instant p {
+    width: 353px;
+    color: #534C64;
+    font-size: 1.25rem;
+    font-weight: 400;
+    text-align: right;
+    line-height: 30px;
+    padding-bottom: 0;
+}
+
+.play-instant-img1 {
+    width: 634.833px;
+    height: 650px;
+    padding-bottom: 0;
+}
+
+.play-instant-img2 {
+    border-radius: 8px;
+    position: relative;
+    bottom: 100px;
+    top: -30%;
+    left: -20%;
+    padding-bottom: 0;
+}
+
+/* games section styles */
+.games {
+    padding: 40px 240px;
+    margin-top: 0;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+
+.item1,
+.item2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.game1,
+.game2,
+.game3,
+.game4,
+.game5,
+.game6,
+.game7,
+.game8,
+.game9 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 50px;
+    background: #FFF;
+    width: 248px;
+    height: 80px;
+    color: #0B0223;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.game1:hover,
+.game2:hover,
+.game3:hover,
+.game4:hover,
+.game5:hover,
+.game6:hover,
+.game7:hover,
+.game8:hover,
+.game9:hover {
+    border: 1px solid #FF42A5;
+    color: #F948B2;
+}
+
+/* footer styles */
+.footer {
+    background: #0B0223;
+}
+
+#footer-logo {
+    color: #FFF;
+    justify-content: center;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+.footer-buttons li,
+.policy li {
+    list-style: none;
+}
+
+.footer-buttons>ul,
+.policy>ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 563px;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.13rem;
+    font-weight: 600;
+
+}
+
+.footer-icons {
+    margin-left: 850px;
+}
+
+.footer-icons img {
+    padding-right: 35px;
+    align-items: center;
+}
+
+.policy>ul {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-weight: 500;
+    justify-content: space-around;
+}
+
+.rights {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-weight: 500;
+    padding-bottom: 130px;
+}
