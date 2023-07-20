@@ -330,3 +330,51 @@ span {
     font-weight: 500;
     padding-bottom: 130px;
 }
+
+/* mobile version */
+@media screen and (max-width: 576px) {
+    .header {
+        width: 100%;
+    }
+
+
+    .header-section,
+    .header-side,
+    .header-items>ul,
+    .play-instant {
+        flex-direction: column;
+        padding: auto;
+        width: 100%;
+    }
+
+    .play-instant img {
+        width: 100%;
+    }
+
+    .banner {
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+
+    .banner img {
+        width: 342px;
+    }
+
+    .header-items li {
+        margin: 70px;
+    }
+
+    .header-side li {
+        gap: 5px;
+    }
+
+    .header-follow-button {
+        width: 100%;
+    }
+
+    .online-games-img {
+        flex-direction: column;
+        margin: 100%;
+    }
+
+}
